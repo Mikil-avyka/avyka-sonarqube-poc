@@ -1,3 +1,3 @@
 FROM python:3.11
 COPY . .
-CMD ['echo', 'build done']
+RUN ['echo', 'build done']
